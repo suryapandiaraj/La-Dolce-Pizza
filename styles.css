@@ -88,3 +88,7 @@ footer {
 .carousel img:hover {
   transform: scale(1.1); /* Zooms in the image on hover */
 }
+
+.col-md-6 > p {
+  font-size: larger;
+}
