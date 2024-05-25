@@ -85,20 +85,6 @@ footer {
   margin: 5px;
 }
 
-#carousel {
-  display: flex;
-  overflow-x: scroll;
-  width: 98vw;
-  height: 100vh;
-  scroll-snap-type: x mandatory;
-}
-#carousel > div > div > img {
-  width: 98vw;
-  height: 100vh;
-  object-fit: cover;
-  scroll-snap-align: center;
-  transition: transform 0.5s ease;
-}
 .carousel img:hover {
   transform: scale(1.1); /* Zooms in the image on hover */
 }
